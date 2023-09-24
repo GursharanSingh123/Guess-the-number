@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+::selection {
+  color: black;
+  background-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Press Start 2P", sans-serif;
+  background: black;
+  color: white;
+}
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+.again {
+  position: absolute;
+  left: 2%;
+  top: 5%;
+}
+.limit {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+  font-size: 1.4rem;
+}
+h1 {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+}
+.question-block {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 6rem;
+  background-color: white;
+  color: black;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+}
+main {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 52rem;
+  align-items: center;
+}
+#input-block {
+  background-color: black;
+  border: 3px solid white;
+  height: 100px;
+  margin-bottom: 30px;
+  width: 240px;
+  color: white;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+.btn {
+  background-color: white;
+  border: 0px;
+  font-family: "Press Start 2P", sans-serif;
+  padding: 20px 27px;
+  font-size: 2rem;
+}
+.right {
+  width: 52rem;
+  text-align: justify;
+  font-size: 2rem;
+  padding-left: 5%;
+}
+.start-guessing-title {
+  margin-bottom: 85px;
+}
+p {
+  margin-bottom: 15px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
